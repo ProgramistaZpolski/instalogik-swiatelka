@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalogik Światła</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="controlpanel">
+        <h1>Instalogik Światła</h1>
+        <fieldset>
+            <legend>Ogólne</legend>
+            <input type="number" name="repetition" id="rep" placeholder="15">
+            <label for="repetition"> Ile razy Jaś wszedł do budynku?</label><br><br>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Światła</legend>
+            <input type="checkbox" name="parter" id="lvl0">
+            <label for="parter"> Parter</label><br>
+            <input type="checkbox" name="pierwszepietro" id="lvl1">
+            <label for="pierwszepietro"> 1 piętro</label><br>
+            <input type="checkbox" name="drugiepietro" id="lvl2">
+            <label for="drugiepietro"> 2 piętro</label><br>
+            <input type="checkbox" name="trzeciepietro" id="lvl3">
+            <label for="trzeciepietro"> 3 piętro</label><br>
+            <input type="checkbox" name="czwartepietro" id="lvl4">
+            <label for="czwartepietro"> 4 piętro</label><br>
+            <input type="checkbox" name="piatepietro" id="lvl5">
+            <label for="piatepietro"> 5 piętro</label><br>
+            <input type="checkbox" name="szostepietro" id="lvl6">
+            <label for="szostepietro"> 6 piętro</label><br>
+            <input type="checkbox" name="siodmepietro" id="lvl7">
+            <label for="siodmepietro"> 7 piętro</label><br>
+            <input type="checkbox" name="osmepietro" id="lvl8">
+            <label for="parter"> 8 piętro</label><br>
+            <input type="checkbox" name="dziewiatepietro" id="lvl9">
+            <label for="dziewiatepietro"> 9 pietro</label><br>
+        </fieldset><br>
+        <button onclick="beginSimulation();">Uruchom</button>
+    </div>
+    <div class="results">
+        <div class="wiezowiec">
+            <div class="swiatlo zapalone" id="swiatlo9"></div>
+            <div class="swiatlo" id="swiatlo8"></div>
+            <div class="swiatlo" id="swiatlo7"></div>
+            <div class="swiatlo" id="swiatlo6"></div>
+            <div class="swiatlo zapalone" id="swiatlo5"></div>
+            <div class="swiatlo" id="swiatlo4"></div>
+            <div class="swiatlo" id="swiatlo3"></div>
+            <div class="swiatlo" id="swiatlo2"></div>
+            <div class="swiatlo zapalone" id="swiatlo1"></div>
+            <div class="swiatlo zapalone" id="swiatlo0"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
